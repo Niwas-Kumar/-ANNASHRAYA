@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANNASHRAYA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;0,800;1,400;1,600&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .logo {
+            font-size: 40px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .logo b {
+            color: #06C167;
+        }
+
+        .para {
+            font-size: 24px;
+            margin-bottom: 40px;
+            color: #555;
+        }
+
+        a {
+            display: inline-block;
+            font-size: 18px;
+            background: #06C167;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: 500;
+            color: #fff;
+            border-radius: 5px;
+            margin: 10px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: #04a455;
+            letter-spacing: 2px;
+            transform: scale(1.05);
+        }
+
+        .log {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .log i {
+            font-size: 24px;
+            vertical-align: middle;
+            color: #06C167;
+            margin: 10px;
+        }
+
+        .log a {
+            display: flex;
+            align-items: center;
+        }
+
+        .add {
+            margin-top: 40px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .logo {
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+
+            .para {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+
+            a {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+
+            .log {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="logo">Welcome to ANNA <b>SHRAYA</b></p>
+        <p class="para">Login as</p>
+        <div class="log">
+            <a href="signup.php"><i class="fa-solid fa-user"></i> User</a>
+            <a href="admin/signup.php"><i class="fa-solid fa-user-shield"></i> Admin</a>
+            <a href="delivery/deliverysignup.php" id="delivery"><i class="fa-solid fa-moped"></i> Delivery</a>
+        </div>
+        <div class="add"></div>
+    </div>
+</body>
+</html>
